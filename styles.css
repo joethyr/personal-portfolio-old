@@ -59,7 +59,6 @@ header {
   display: grid;
   grid-row-gap: 3rem;
   grid-column-gap: 2rem;
-    /* This will result on four columns, each one of 1fr */
   grid-template-columns: repeat(auto-fit, minmax(240px, 370px));
   justify-content: center;
   align-content: center;
