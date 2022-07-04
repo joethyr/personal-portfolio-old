@@ -1,13 +1,13 @@
 html body {
-  background-color: rgb(44,45,50);
+  background-color: #FFFDFA;
 }
 
 body {
   color: blue;
 }
 header {
-  background-color: #013A6B;
-  background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);
+  background-color: #FFFDFA;
+  /*background-image: -webkit-linear-gradient(30deg, #013A6B 50%, #004E95 50%);*/
 }
 .header-container {
     display: grid;
@@ -59,7 +59,7 @@ header {
   display: grid;
   grid-row-gap: 3rem;
   grid-column-gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 370px));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 320px));
   justify-content: center;
   align-content: center;
   padding: 1rem;
@@ -75,3 +75,6 @@ header {
     width: 100%;
 }
 
+.contact-section {
+  background-color: rgb(255,248,220);
+}
