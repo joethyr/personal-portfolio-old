@@ -25,7 +25,8 @@ header {
 }
 
 .project-section {
-  background-color: white;
+  background-color: #FFFDFA;
+  padding: 3rem 0;
 }
 
 .image-container {
@@ -63,6 +64,7 @@ header {
   justify-content: center;
   align-content: center;
   padding: 1rem 0;
+  ;
 }
 
 
@@ -82,11 +84,12 @@ header {
 .contact-section .container {
   display: grid;
   grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) );
-    grid-template-columns: repeat(auto-fit, minmax(250px, 580px));
-    /*padding: 3rem 4rem;*/
-    justify-content: center;
-    align-content: center;
-   padding: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 580px));
+  /*padding: 3rem 4rem;*/
+  justify-content: center;
+  align-content: center;
+  padding: 1rem;
+
 }
 
 .contact-links {
@@ -95,3 +98,11 @@ header {
   align-content: end;
 }
 
+.fa-brands {
+   color: black;
+}
+
+.fa-brands:hover {
+  transform: scale(1.2);
+  transition: .2s ease-out;
+}
