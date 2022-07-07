@@ -117,6 +117,14 @@ header {
   font-size: 14px;
 }
 
+.project-icon {
+  color: black;
+}
+
+.project-icon:hover {
+  transform: scale(1.1);
+  transition: .2s ease-out;
+}
 
 figure a {
   -webkit-filter: brightness(100%);
