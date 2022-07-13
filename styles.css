@@ -10,16 +10,16 @@ header {
 }
 .header-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 580px));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 513px));
     justify-content: center;
     align-content: center;
     padding: 1rem;
 }
 
 .profile-image {
-/*  width: 100%;
-  height: 100%;
-  object-fit: cover;*/
+  width: 50%;
+  height: auto;
+  object-fit: cover;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -44,10 +44,10 @@ header {
 }
 
 .title-card {
-  padding: 10px;
+  padding: 1rem 10px;
   background-color: white;
-  margin: 4rem 0;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .title-card > h2 {
